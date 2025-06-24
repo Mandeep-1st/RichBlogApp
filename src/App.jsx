@@ -37,3 +37,19 @@ function App() {
 }
 
 export default App;
+
+
+/** iska Header and footer iska matlab bas itna hai ki pehle joh pura aise ka aisa embed hota tha abb woh nhi hoga 
+ * but usse pehle header and uske niche footer lag jaayega
+ * 
+ * Now yeh outlet konsa aayega yeh index.jsx se decide hota hai. wha pai humne routing karte huai childrens decide kiye hai.
+ *  <div className="min-h-screen flex flex-wrap content-between bg-gray-400">
+      <div className="w-full block">
+        <Header />
+        <main>
+          <Outlet />
+        </main>
+        <Footer />
+      </div>
+    </div>
+ */

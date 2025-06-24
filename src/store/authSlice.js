@@ -10,8 +10,8 @@ const authSlice = createSlice({
     initialState,
     reducers: {
         login: (state, action) => {
-            state.status = true;
-            state.userData = action.payload.userData;
+            state.status = true; //state param give you the access of initialState.
+            state.userData = action.payload.userData; //action.payload.userData means now I have to {userData} do this because payload is an object and I am asking for userData only.
         },
         logout: (state) => {
             state.status = false;
